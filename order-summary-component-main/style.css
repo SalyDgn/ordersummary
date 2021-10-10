@@ -1,0 +1,84 @@
+@font-face {
+    font-family:"Red Hat Display";
+    src: url(https://fonts.google.com/specimen/Red+Hat+Display);
+}
+
+body{
+    background: url("./images/pattern-background-desktop.svg") no-repeat;
+    background-color:hsl(225, 100%, 94%);
+    font-size: 16px;
+    font-family:"Red Hat Display";
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 450px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+.hero img
+{
+    width: 450px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px ;
+    margin: 0px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px ;
+}
+
+.text p{
+    color: grey;
+    font-size: large;
+}
+
+.offer{
+    display: flex;
+    align-items: center;
+    background-color: hsl(220, 23%, 95%);
+    border-radius: 15px;
+    height: 100px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+
+.music-icon
+{
+    display: flex;
+}
+
+.bouton #Payment {
+    width: 350px;
+    color: hsl(220, 23%, 95%);
+    background: hsl(223, 94%, 52%);
+    height: 45px;
+    border-radius: 1rem;
+    font-weight: 700;
+    box-shadow: 3px 3px 5px hsl(222, 16%, 46%);
+}
+
+.cancel
+{
+    margin-top: 20px;
+}
+
+.cancel a{
+    color: grey;
+    font-size: medium;
+    font-weight: 600;
+    text-decoration: none;
+}
